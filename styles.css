@@ -41,7 +41,8 @@ body{
 }
 .navbar ul li a::after{
     content: '';
-    background: linear-gradient(90deg,#ffff00,#ff0000,#0000ff);
+    background: linear-gradient(90deg,blue, red,
+    yellow);
     position: absolute;
     left: 0;
     bottom: -2px;
@@ -239,8 +240,82 @@ button:hover{
     background-color: rgb(112, 95, 206);
  }
  .w-profile .profile p{
-    padding-top: 30px;
-    text-align:justify;
-    font-weight: 300;
-    padding: 30px 15px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    font-family: Verdana;
  }
+.my-skill{
+    width: 80%;
+    margin: auto;
+    font-weight: bold;
+    padding: 100px ;
+    text-align: justify;
+}
+.my-skill h1{
+    font-size: 40px;
+    text-decoration: underline;
+    text-transform: capitalize;
+    padding: 20px 0px;
+    text-align: center;
+}
+.skill{
+    width: 100%%;
+}
+.skill h3{
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px 0;    
+}
+.skill .progress-bar{
+    background-color: #309271;
+    padding: 10px;
+    border-radius: 5px;
+}
+.skill .progress-bar span{
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+}
+.skill .progress-bar .html{
+    background-color: green;
+    width: 95%;
+    border-radius: 20px;
+    animation: html 1s linear;
+}
+.skill .progress-bar .css{
+    background-color: blueviolet;
+    width: 90%;
+    border-radius: 20px;
+}
+.skill .progress-bar .js{
+    background-color:red ;
+    width: 25%;
+    border-radius: 20px;
+}
+.skill .progress-bar .python{
+    background-color:blue;
+    width: 80%;
+    border-radius: 20px;
+}
+.skill .progress-bar .boostrap{
+    background-color:brown;
+    width: 60%;
+    border-radius: 20px;
+}
+.skill .progress-bar .react{
+    background-color: green;
+    width: 85%;
+    border-radius: 20px;
+}
+@keyframes html{
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 95%;
+    }
+}

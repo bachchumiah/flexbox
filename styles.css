@@ -272,6 +272,7 @@ button:hover{
     background-color: #309271;
     padding: 10px;
     border-radius: 5px;
+    text-align: right;
 }
 .skill .progress-bar span{
     font-size: 15px;
@@ -284,7 +285,7 @@ button:hover{
     background-color: green;
     width: 95%;
     border-radius: 20px;
-    animation: html 1s linear;
+    /* animation: html 1s linear; */
 }
 .skill .progress-bar .css{
     background-color: blueviolet;
@@ -311,11 +312,11 @@ button:hover{
     width: 85%;
     border-radius: 20px;
 }
-@keyframes html{
-    0{
+/* @keyframes html{
+    0 {
      width: 0;
     }
     100%{
     width: 95%;
     }
-}
+} */

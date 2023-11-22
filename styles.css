@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #a9bbb5;
+    background-color: rgb(80, 122, 139);
 }
 .navbar{
     width: 100%;
@@ -16,7 +16,7 @@ body{
     border-radius: 20px;
 }
 .navbar .logo h1{
-    font-size: 20px;
+    font-size: 20px;z
     padding-left: 20px;
     color: blue;
 }
@@ -390,4 +390,37 @@ button:hover{
     100% {
         width: 85%;
     }
+}
+/* footer section */
+.footer{
+    width: 80%;
+    padding: 50px 0px;
+    margin: auto;
+    /* background-color: coral; */
+    padding: 50px 100px;
+    color: whitesmoke;
+}
+.top-footer p{
+    font-size: 13px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+.top-footer form input[type=email]{
+padding: 10px;
+width: 40%;
+border: none;
+font-size: 15px;
+}
+.top-footer form input[type=button]{
+    font-size: 15px;   
+    padding: 10px 40px;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+}
+.top-footer form input[type=button]:hover{
+    background-color: black;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
 }

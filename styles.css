@@ -278,8 +278,9 @@ button:hover{
     padding: 10px 0;    
 }
 .skill .progress-bar{
-    background-color: #309271;
-    border-radius: 20px;
+    width: 100%;
+    background-color: #169269;
+    border-radius: 20px 5px 5px 20px;
     text-align: right;
 }
 .skill .progress-bar span{
@@ -291,14 +292,13 @@ button:hover{
 }
 .skill .progress-bar .html{
     background-color: #008000;
-}
     width: 95%;
     border-radius: 20px;
     /* animation-name: htmlanimation;
     animation-duration: 2s; */
 }
 .skill .progress-bar .css{
-    background-color: blueviolet;
+    background-color: #8a2be2;
     width: 90%;
     border-radius: 20px;
 }

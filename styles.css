@@ -326,7 +326,7 @@ button:hover{
 .html{
     animation-name: html;
     animation-duration: 4s;
-    animation-iteration-count: 3;
+    animation-iteration-count: infinite;
 }
 @keyframes html{
     0%{
@@ -339,7 +339,7 @@ button:hover{
 .css{
     animation-name: css;
     animation-duration: 4s;
-    animation-iteration-count: 3;
+    animation-iteration-count: infinite;
 }
 @keyframes css{
     0%{
@@ -352,7 +352,7 @@ button:hover{
 .js{
     animation-name: js;
     animation-duration: 4s;
-    animation-iteration-count: 3;
+    animation-iteration-count: infinite;
 }
 @keyframes js{
     0%{
@@ -365,7 +365,7 @@ button:hover{
 .python{
     animation-name: python;
     animation-duration: 4s;
-    animation-iteration-count: 3;
+    animation-iteration-count: infinite;
 }
 @keyframes python{
     0%{
@@ -378,7 +378,7 @@ button:hover{
 .boostrap{
     animation-name: boostrap;
     animation-duration: 4s;
-    animation-iteration-count: 3;
+    animation-iteration-count: infinite;
 }
 @keyframes boostrap{
     0%{
@@ -391,7 +391,7 @@ button:hover{
 .react{
     animation-name: react;
     animation-duration: 4s;
-    animation-iteration-count: 3;
+    animation-iteration-count: infinite;
 }
 @keyframes react{
     0%{

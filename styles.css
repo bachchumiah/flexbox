@@ -627,3 +627,105 @@ font-size: 15px;
         font-size: 12px;
     }
 }
+@media(max-width: 412px){
+    .navbar{
+        border-radius: 0px;
+    }
+    .navbar .logo h1{
+        font-size: 15px;
+        padding-left: 5px;
+    }
+    .navbar .menu{
+        display: flex;
+        justify-content: space-between;
+    }
+    .navbar ul li{
+        display:inline-block;
+    }
+    .navbar ul li a{
+        font-size: 12px;
+    }
+    .navbar .menu .btn{
+        font-size: 12px;
+        padding: 3px;
+        margin-left: 0px;
+        margin-right: 5px;
+        border-radius: 5px;   
+    }
+    .flex-container{
+        width: 100%;
+        margin-top: 20px;    
+    }
+    .para{
+        width: 60%;
+        padding: 0 10px;
+    }
+    .para h1{
+        font-size: 20px;
+    }
+    .para p{
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .para button{
+        font-size: 12px;
+        padding: 5px 15px;
+        margin-top: 5px;   
+    }
+    .img{
+        width: 50%;
+        text-align: center;
+        padding-top: 10px;
+        padding-right: 10px;
+    }
+    .img img{
+        width: 180px;
+        height: 200px
+    }
+    .img img:hover{
+        transform: scale(1.08);   
+    }
+    .main{
+        width: 100%;
+        padding:10px;
+    }
+    .service{
+        width: 100%;
+        margin-top: 40px;
+     }
+     .service h1{
+        padding: 10px;
+        font-weight: 900;
+     }
+     .w-profile{
+        width: 90%;
+        display: block;
+        margin-top: 30px;
+     }
+     
+     .w-profile .profile i{
+        width: 100px;
+        height: 100px;
+        }
+     .w-profile .profile h2{
+        font-size: 15px;
+        padding: 15px;
+     }
+     .w-profile .profile div{
+        width: 90px;
+     }
+     .w-profile .profile p{
+        width: 90%;
+        margin-top: 0px;
+     }.my-skill{
+        width: 100%;
+        padding: 0 50px ;
+    }
+    .my-skill h1{
+        font-size: 30px;
+    }
+    .skill{
+        width: 90%;
+    }
+
+}

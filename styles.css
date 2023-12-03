@@ -822,8 +822,5 @@ font-size: 15px;
     }
     .footer .font i{
         font-size: 20px;
-    }
-    .footer .font i:hover{
-        transform: translateY(-8px);
-    }     
+    }   
 }

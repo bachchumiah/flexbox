@@ -627,20 +627,20 @@ font-size: 15px;
         font-size: 12px;
     }
 }
-/* ------media 412---- */
-@media(max-width: 412px){
+/* ------media 480---- */
+@media(max-width: 480px){
     .navbar{
         border-radius: 0px;
     }
     .navbar .logo h1{
-        font-size: 13px;
+        font-size: 15px;
         padding-left: 5px;
     }
     .navbar ul li a{
-        font-size: 12px;
+        font-size: 15px;
     }
     .navbar .menu .btn{
-        font-size: 12px;
+        font-size: 15px;
         padding: 3px;
         margin-left: 0px;
         margin-right: 5px;
@@ -821,5 +821,9 @@ font-size: 15px;
     }
     .footer .font i{
         font-size: 20px;
-    }   
+    }  
+    
+    @media (max-width: 320) {
+        
+    }
 }

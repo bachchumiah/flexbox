@@ -823,7 +823,24 @@ font-size: 15px;
         font-size: 20px;
     }  
     
-    @media (max-width: 320) {
+    @media (max-width: 320){
+        .navbar{
+            border-radius: 0px;
+        }
+        .navbar .logo h1{
+            font-size: 12px;
+            padding-left: 2px;
+        }
+        .navbar ul li a{
+            font-size: 10px;
+        }
+        .navbar .menu .btn{
+            font-size: 10px;
+            padding: 2px;
+            margin-left: 0px;
+            margin-right: 2px;
+            border-radius: 5px;   
+        }
         
     }
 }

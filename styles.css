@@ -635,13 +635,6 @@ font-size: 15px;
         font-size: 15px;
         padding-left: 5px;
     }
-    .navbar .menu{
-        display: flex;
-        justify-content: space-between;
-    }
-    .navbar ul li{
-        display:inline-block;
-    }
     .navbar ul li a{
         font-size: 12px;
     }
@@ -685,6 +678,28 @@ font-size: 15px;
     .img img:hover{
         transform: scale(1.08);   
     }
+    .heading h1{
+        font-size: 25px;
+    }
+    .card img{
+        width:100%;
+        height: 180px;
+     }
+     .card h3{
+        font-size: 18px;
+     }
+     .card p{
+        font-size: 12px;
+        font-weight: 500;
+        padding: 0px 10px;
+     }
+     .card button{
+        font-size: 13px;
+        padding: 5px 10px;
+        color: black;
+
+    }
+    
     .main{
         width: 100%;
         padding:10px;
@@ -727,5 +742,88 @@ font-size: 15px;
     .skill{
         width: 90%;
     }
-
+    .html{
+        animation-iteration-count: 1;
+    }
+    .css{
+        animation-iteration-count: 1;
+    }
+    .js{
+        animation-iteration-count: 1;
+    }
+    .python{
+        
+        animation-iteration-count: 1;
+    }
+    .boostrap{
+        animation-iteration-count: 1;
+    }
+    .react{
+       
+        animation-iteration-count: 1;
+    }
+    .footer{
+        width: 100%;
+        padding: 50px 20px;
+    }
+    .top-footer h1{
+        font-size: 18px;
+    }
+    .top-footer p{
+        font-size: 12px;
+        padding-top: 5px 20px;
+    }
+    .top-footer form input[type=email]{
+    padding: 10px;
+    width: 50%;
+    font-size: 12px;
+    }
+    .top-footer form input[type=button]{
+        font-size: 12px;   
+        padding: 10px 30px;
+    }
+    .top-footer form input[type=button]:hover{
+        border-radius: 0px;
+    }
+    .btm-footer{
+        width: 100%;
+        margin: auto;
+        padding: 20px;
+        display: block;
+        text-align: center;
+        
+    }
+    .btm-footer .col-1{
+        width: 90%;
+        padding: 20px;
+    }
+    .btm-footer .col-1 p{
+        text-align: left;
+        padding-left: 0px;
+        padding-top: 5px;
+    }
+    .btm-footer .col-2{
+        padding: 10px;
+        text-align: left;
+        padding-left: 20px;
+    }
+    .btm-footer .col-2 p{
+        padding-top: 5px;
+        padding-left: 0px;
+    }
+    .btm-footer .col-3{
+        padding: 10px;
+        text-align: left;
+        padding-left: 0px;
+    }
+    .btm-footer .col-3 p{
+        padding-top: 10px;
+        padding-left: 20px;    
+    }
+    .footer .font i{
+        font-size: 20px;
+    }
+    .footer .font i:hover{
+        transform: translateY(-8px);
+    }     
 }

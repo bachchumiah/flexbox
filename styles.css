@@ -627,12 +627,13 @@ font-size: 15px;
         font-size: 12px;
     }
 }
+/* ------media 412---- */
 @media(max-width: 412px){
     .navbar{
         border-radius: 0px;
     }
     .navbar .logo h1{
-        font-size: 15px;
+        font-size: 13px;
         padding-left: 5px;
     }
     .navbar ul li a{
@@ -651,7 +652,7 @@ font-size: 15px;
     }
     .para{
         width: 60%;
-        padding: 0 10px;
+        padding: 0 5px;
     }
     .para h1{
         font-size: 20px;
@@ -697,9 +698,7 @@ font-size: 15px;
         font-size: 13px;
         padding: 5px 10px;
         color: black;
-
-    }
-    
+    }    
     .main{
         width: 100%;
         padding:10px;

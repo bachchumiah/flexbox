@@ -627,13 +627,15 @@ font-size: 15px;
         font-size: 12px;
     }
 }
+
 /* ------media 480---- */
+
 @media(max-width: 480px){
     .navbar{
         border-radius: 0px;
     }
     .navbar .logo h1{
-        font-size: 15px;
+        font-size: 20px;
         padding-left: 5px;
     }
     .navbar ul li a{
@@ -670,7 +672,7 @@ font-size: 15px;
         width: 50%;
         text-align: center;
         padding-top: 10px;
-        padding-right: 10px;
+        padding-right: 5px;
     }
     .img img{
         width: 180px;
@@ -822,26 +824,9 @@ font-size: 15px;
     .footer .font i{
         font-size: 20px;
     }  
-    
-    @media (max-width: 320){
-        .navbar{
-            border-radius: 0px;
-        }
-        .navbar .logo h1{
-            font-size: 10px;
-            padding-left: 2px;
-        }
-        .navbar ul li a{
-            font-size: 10px;
-        }
-        .navbar .menu .btn{
-            font-size: 10px;
-            padding: 2px;
-            margin-left: 0px;
-            margin-right: 2px;
-            border-radius: 5px;   
-        }
-    }
+}
+
+@media (max-width: 320px){    
     .img{
         width: 50%;
         text-align: center;
@@ -852,4 +837,39 @@ font-size: 15px;
         width: 130px;
         height: 150px
     }
+    .navbar{
+        width: 100%;
+        display: flex;
+        height: auto;
+        align-items: baseline;
+        overflow: auto;
+        justify-content: space-around;
+        padding: 10px 0;
+    }
+    .navbar .logo h1{
+        font-size: 20px;
+    }
+    
+    .navbar .menu{
+        display: block;
+    }
+    .navbar ul li{
+        display: block;
+        align-items: center;
+        margin-bottom: 5px;
+        position: relative;
+    }
+    .navbar ul li a{
+        font-size: 17px;
+    }
+    .card h3{
+        font-size: 15px;
+    }
+    .card img{
+        height: 120px;
+    }
+    .service h1{
+        font-size: 15px;
+        font-weight: 900;
+     }
 }

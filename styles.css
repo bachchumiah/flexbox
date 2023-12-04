@@ -503,7 +503,7 @@ font-size: 15px;
     }
 }
 /* -----media 720------- */
-@media (max-width: 610px){
+@media (max-width: 720px){
     .flex-container{
        width: 90%;
         align-items: flex-start;
